@@ -91,6 +91,29 @@ Once scoring or judging is finished, check the final result on the bounty page. 
 
 If your entry wins a paid place, follow the claim instructions shown for that bounty and your account. Rewards are paid in USDC on Solana; the bounty's payout details tell you whether a wallet signature, payout information, or another step is needed. Review the destination carefully before confirming. Never share your wallet's recovery phrase or private key.
 
+## Troubleshooting: common mistakes
+
+- **Treating a successful kit check as a submission.** A local or pre-submit check can catch problems, but it does not by itself enter your work. Follow the bounty's separate submission steps, then confirm that your entry appears in its status.
+- **Starting from the wrong referral link.** Open your intended referral link before creating your account, or enter its code during sign-up if the site asks. Referral attribution is based on the first link the browser saw for 60 days, so don't assume adding a code later will replace an earlier referral.
+- **Leaving a required repository private.** If the bounty asks for a public GitHub repository, check its visibility before submitting; a private repository cannot meet that requirement.
+- **Putting the README in the wrong place.** When a bounty expects its guide at the repository root, an existing `.github/README.md` can be shown in place of `README.md`. Remove the shadowing file so visitors and checks see the intended guide.
+- **Submitting the wrong account's repository.** For a bounty that requires a repository owned by your linked GitHub account, verify both the owner and the account linked to make.fun before you submit.
+- **Waiting until after entries close to fix a problem.** A check can identify a fix, but a corrected submission still has to meet the bounty's deadline and resubmission rules. Leave time to act on feedback.
+
+## Quick FAQ
+
+**Do I need to know how to code?**  
+You can ask an AI coding agent to help build the entry, but you still choose the task, review what it makes, and check that it follows the rules.
+
+**Does passing the kit check mean I've entered?**  
+No. Use the bounty's submission method as well, and check the entry status afterward to confirm it was received.
+
+**Do all bounties accept the same kind of entry?**  
+No. Requirements differ. One may ask for a repository and commit, while another may specify a different format or extra materials. Read that bounty's task and kit.
+
+**When do I get paid?**  
+Only entries that place and meet the payout requirements can claim a reward. Check the bounty and your entry status for the result and the claim steps; payout timing and any additional requirements depend on the bounty.
+
 ## Earn with your own referral link
 
 Once you have an account, open the **Referrals** tab on your profile to find your link and see the current reward terms. A link looks like `https://make.fun/r/<code>`; you can also use its code or add `?ref=<code>` to a make.fun page.
